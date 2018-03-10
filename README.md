@@ -22,13 +22,13 @@ here we can see that the network is able to write well formed sequenses of words
 <br/>
 
 <h3>Tips to improve network performance: </h3>
-1.Predict fewer than 1,000 characters as output for a given seed.
-2.Remove all punctuation from the source text, and therefore from the models’ vocabulary.
-3.Try a one hot encoded for the input sequences.
-4.Train the model on padded sentences rather than random sequences of characters.
-5.Increase the number of training epochs to 100 or many hundreds.
-6.Add dropout to the visible input layer and consider tuning the dropout percentage.
-7.Tune the batch size, try a batch size of 1 as a (very slow) baseline and larger sizes from there.
-8.Add more memory units to the layers and/or more layers.
-9.Experiment with scale factors (temperature) when interpreting the prediction probabilities.
+1.Predict fewer than 1,000 characters as output for a given seed.<br/>
+2.Remove all punctuation from the source text, and therefore from the models’ vocabulary.<br/>
+3.Try a one hot encoded for the input sequences.<br/>
+4.Train the model on padded sentences rather than random sequences of characters.<br/>
+5.Increase the number of training epochs to 100 or many hundreds.<br/>
+6.Add dropout to the visible input layer and consider tuning the dropout percentage.<br/>
+7.Tune the batch size, try a batch size of 1 as a (very slow) baseline and larger sizes from there.<br/>
+8.Add more memory units to the layers and/or more layers.<br/>
+9.Experiment with scale factors (temperature) when interpreting the prediction probabilities.<br/>
 10.Change the LSTM layers to be “stateful” to maintain state across batches.<br/>
