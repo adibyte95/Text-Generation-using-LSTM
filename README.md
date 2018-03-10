@@ -31,3 +31,8 @@ here we can see that the network is able to write well formed sequenses of words
 8.Add more memory units to the layers and/or more layers.<br/>
 9.Experiment with scale factors (temperature) when interpreting the prediction probabilities.<br/>
 10.Change the LSTM layers to be “stateful” to maintain state across batches.<br/>
+
+<h3>Credits:</h3>
+This repo is inspired by <a href = "https://machinelearningmastery.com/text-generation-lstm-recurrent-neural-networks-python-keras/">this</a> post<br/>
+shakespere corpus is downloaded from <a here="http://lexically.net/wordsmith/support/shakespeare.html">here</a><br/>
+alice in the wonderland is downloaded from <a href="http://www.gutenberg.org/ebooks/11?msg=welcome_stranger">here</a>
