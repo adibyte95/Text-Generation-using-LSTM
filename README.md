@@ -1,3 +1,4 @@
+[![HitCount](http://hits.dwyl.io/adibyte95/Text-Generation-using-LSTM.svg)](http://hits.dwyl.io/adibyte95/Text-Generation-using-LSTM)
 # Text-Generation-using-LSTM
 
 <h3>TOPIC:</h3>
